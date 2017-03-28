@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="untitled:war exploded">
+    <output-path>$PROJECT_DIR$/web</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="UploadDemo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="UploadDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="apidocs" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/commons-io-1.4/commons-io-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/commons-io-1.4/commons-io-1.4-javadoc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/commons-io-1.4/commons-io-1.4-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../jar/commons-fileupload-1.2.1/lib/commons-fileupload-1.2.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
